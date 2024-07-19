@@ -1,10 +1,10 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
+This is a simple Guess the Number game written in Java, with a GUI using JavaFX.
+I have never used Java before so setting up the JDK and IntelliJ IDE took some time and 
+then I created a command line version using pure Java. After creating the basic version I
+added easy, medium, and hard difficulties. Finally, I installed JavaFX and copied my code over
+into a GameWindow class and added a GUI.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
@@ -12,21 +12,16 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used IntelliJ IDE, Java, and JavaFX. I used a number of libraries including ArrayList, 
+List, and Random from Java and Application, Scene, Control, Layout, and Stage from JavaFX.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [JetBrains IntelliJ IDEA documentation and setup](https://www.jetbrains.com/help/idea/javafx.html)
+- [Java Tutorial from w3 schools](https://www.w3schools.com/java/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add colors/effects when the number is higher, lower, or correct.
+- Fix formatting, i.e. size of the GUI window to include all text.
+- Ideally I'd like other guessing games like wordle or guess the color sequence 

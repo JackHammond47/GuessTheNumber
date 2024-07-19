@@ -34,13 +34,13 @@ public class GameWindow extends Application {
         Label difficultyLabel = new Label("Choose difficulty level:");
         Button easyButton = new Button("Easy (0-50, 10 attempts)");
         Button mediumButton = new Button("Medium (0-100, 7 attempts)");
-        Button hardButton = new Button("Hard (0-500, 5 attempts)");
+        Button hardButton = new Button("Hard (0-500, 7 attempts)");
 
         difficultyLayout.getChildren().addAll(difficultyLabel, easyButton, mediumButton, hardButton);
 
         easyButton.setOnAction(e -> startGame(50, 10, primaryStage));
         mediumButton.setOnAction(e -> startGame(100, 7, primaryStage));
-        hardButton.setOnAction(e -> startGame(500, 5, primaryStage));
+        hardButton.setOnAction(e -> startGame(500, 7, primaryStage));
 
         Scene difficultyScene = new Scene(difficultyLayout, 300, 200);
         primaryStage.setScene(difficultyScene);
